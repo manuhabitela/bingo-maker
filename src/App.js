@@ -80,7 +80,7 @@ export default function App() {
             </div>
             <div className="Grids">
               {[...Array(numberOfGrids)].map((val, k) => (
-                <RandomGrid
+                <Grid
                   key={k}
                   cells={inputToCells(input)}
                 />
