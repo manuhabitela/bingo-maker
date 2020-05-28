@@ -34,7 +34,7 @@ export default function App() {
 
   return (
     <div className="App">
-      <h1>Bingoooooo</h1>
+      <h1>Bingo Maker</h1>
       <ul className="Menu">
         <li>
           {!isInputPage && (
