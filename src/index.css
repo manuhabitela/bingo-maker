@@ -146,6 +146,10 @@ body,
   justify-content: center;
 }
 
+.Cell--done {
+  text-decoration: line-through;
+}
+
 @media print {
   h1,
   .Menu,
