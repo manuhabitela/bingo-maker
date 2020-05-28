@@ -22,7 +22,7 @@ export default function Grid({ cells }) {
             onClick={toggle.bind(this, k + 1)}
             className={`Cell ${isDone ? "Cell--done" : ""}`}
           >
-            <span>{cell} {isDone && <span className="ScreenReaderOnly">(fait !)</span>}</span>
+            <span>{cell} {isDone && <span className="ScreenReaderOnly">(c'est fait !)</span>}</span>
           </div>
         );
       })}
