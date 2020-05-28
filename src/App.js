@@ -27,7 +27,7 @@ export default function App() {
     localStorage.setItem("input", val);
   };
 
-  const [numberOfGrids, setNumberOfGrids] = React.useState("");
+  const [numberOfGrids, setNumberOfGrids] = React.useState("1");
   const onNumberChange = val => {
     setNumberOfGrids(val * 1);
   };
